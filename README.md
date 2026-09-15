@@ -141,9 +141,8 @@ Prerequisites
 Backend Setup
 
 ```bash
-cd app
 pip install -r requirements.txt
-uvicorn main:app --reload
+python -m uvicorn app.main:app --reload
 ```
 
 Backend will run on: http://localhost:8000
@@ -163,7 +162,7 @@ Environment Variables
 Create a .env file in the frontend/ folder:
 
 ```
-VITE_API_URL=http://localhost:8000
+VITE_API_BASE_URL=http://localhost:8000
 ```
 
 ---
