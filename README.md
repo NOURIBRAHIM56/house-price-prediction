@@ -143,7 +143,7 @@ Backend Setup
 ```bash
 cd app
 pip install -r requirements.txt
-uvicorn main:app --reload
+python -m uvicorn app.main:app --reload
 ```
 
 Backend will run on: http://localhost:8000
