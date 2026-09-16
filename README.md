@@ -233,8 +233,6 @@ Nour Ibrahim
 · GitHub: @NOURIBRAHIM56
 
 ```
-
----
 ---
 
 ## Screenshots
